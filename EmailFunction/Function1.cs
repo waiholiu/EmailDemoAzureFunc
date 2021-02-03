@@ -31,7 +31,6 @@ namespace EmailFunction
 
                 var sendingAddress = formData["sendingAddress"].ToString();
 
-
                 RestClient client = new RestClient();
                 client.BaseUrl = new Uri("https://api.mailgun.net/v3");
                 client.Authenticator =
